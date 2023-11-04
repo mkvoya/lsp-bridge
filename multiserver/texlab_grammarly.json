@@ -1,0 +1,21 @@
+{
+  "completion": ["texlab", "grammarly-languageserver"],
+  "completion_item_resolve": ["texlab", "grammarly-languageserver"],
+  "diagnostics": ["texlab", "grammarly-languageserver"],
+  "code_action": ["texlab", "grammarly-languageserver"],
+  "execute_command": ["texlab", "grammarly-languageserver"],
+  "find_define": "texlab",
+  "find_type_define": "texlab",
+  "find_implementation": "texlab",
+  "find_references": "texlab",
+  "peek_find_definition": "texlab",
+  "peek_find_references": "texlab",
+  "formatting": "texlab",
+  "hover": "grammarly-languageserver",
+  "signature_help": "texlab",
+  "prepare_rename": "texlab",
+  "rename": "texlab",
+  "document_symbol": "texlab",
+  "workspace_symbol": "texlab",
+  "inlay_hint": "texlab"
+}

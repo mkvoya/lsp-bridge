@@ -1,0 +1,13 @@
+{
+  "name": "grammarly-languageserver",
+  "languageId": "tex",
+  "command": [
+    "grammarly-languageserver",
+    "--stdio"
+  ],
+  "settings": {},
+  "initializationOptions": {
+      "clientId": "client_BaDkMgx4X19X9UxxYRCXZo",
+      "name": "Grammarly"
+  }
+}

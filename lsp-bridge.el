@@ -421,6 +421,10 @@ Then LSP-Bridge will start by gdb, please send new issue with `*lsp-bridge*' buf
   "Default LSP server for (la)tex, you can choose `texlab' or `digestif'."
   :type 'string)
 
+(defcustom lsp-bridge-tex-multi-lsp-server "texlab_grammarly"
+  "Default Multi LSP server for (la)tex, you can choose `texlab_grammarly'."
+  :type 'string)
+
 (defcustom lsp-bridge-csharp-lsp-server "omnisharp-dotnet"
   "Default LSP server for C#, you can choose `omnisharp-mono' or `omnisharp-dotnet'."
   :type 'string)
@@ -440,6 +444,7 @@ Then LSP-Bridge will start by gdb, please send new issue with `*lsp-bridge*' buf
 
 (defcustom lsp-bridge-multi-lang-server-mode-list
   '(((python-mode python-ts-mode) . lsp-bridge-python-multi-lsp-server)
+    ((latex-mode Tex-latex-mode texmode context-mode texinfo-mode bibtex-mode) . lsp-bridge-tex-multi-lsp-server)
     ((qml-mode qml-ts-mode) . "qmlls_javascript"))
   "The multi lang server rule for file mode."
   :type 'cons)
